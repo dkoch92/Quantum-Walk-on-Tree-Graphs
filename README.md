@@ -1,29 +1,31 @@
 # Quantum-Walk-on-Tree-Graphs
 Code used for the publication: "Finding Paths in Tree Graphs With a Quantum Walk" (2018)
 
-# Green?
-
-# Project Title
-
-One Paragraph of project description goes here
+The code assmebled in this project were used in the paper mentioned above, which was the main focus of my thesis.  I've created this github project to share the code I created, in order to study these Scattering Quantum Random Walks.  For information about these quantum walks, I reccomended checking out the paper on arXiv.  All of the code in this project is designed for quantum random walks, specfificaly for the geometry of "N-Tree Graphs."
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+All of the code is written for Python.  For an IDE to run the codes, I reccomend using Spyder through the Anaconda Distribution.
 
-### Prerequisites
+link: https://www.anaconda.com/download
 
-What things you need to install the software and how to install them
+The code requires Python 3.5 or higher
+
+Once you have Spyder, or another Python IDE up and running, download all of the python files and put them together in a location somwhere on your computer. For example, store them in a folder on your desktop labeled "NTree Quantum Walks."  It is important that all of the python files be stored in the same location, as they call upon each other frequently to import functions.
+
+For example, many of the codes will call upon the file 'Ntreefunctions.py' for functions:
 
 ```
-Give examples
+import Ntreefunctions as nt
 ```
 
-### Installing
+As a good first test to make sure everything runs properly: open or copy into a new file, the python file named "Ntree Test Code".  If the file runs properly, a messege should print saying that all of the functions imported correctly.
 
-A step by step series of examples that tell you have to get a development env running
+## Classical Simulation of Quantum Systems
 
-Say what the step will be
+When designing new quantum algorithms, often times it is useful to run simulations of the behavior of quantum systems on a clssical computer.  This is precisely what all of these codes do: simulate the results one could expect from running a Quantum Random Walk on N-Tree graphs.  The advantage of simulating these walks classically is the ability to store information about the state of the system at any given moment.  Many of the codes in this project do exactly that: highlight the unique features of these quantum systems, with exact values for state amplitudes, probabilities, etc.
+
+By studying the "under the hood" properties of these quantum systems, we can better determine whether they have the potetntial for speedups over classical algorithms.
 
 ```
 Give the example
@@ -37,7 +39,7 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-## Running the tests
+## Reccomended Files to Run
 
 Explain how to run the automated tests for this system
 
