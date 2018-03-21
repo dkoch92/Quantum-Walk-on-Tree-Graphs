@@ -25,7 +25,7 @@ As a good first test to make sure everything runs properly: open or copy into a 
 
 When designing new quantum algorithms, often times it is useful to run simulations of the behavior of quantum systems on a clssical computer.  This is precisely what all of these codes do: simulate the results one could expect from running a Quantum Random Walk on N-Tree graphs.  The advantage of simulating these walks classically is the ability to store information about the state of the system at any given moment.  Many of the codes in this project do exactly that: highlight the unique features of these quantum systems, with exact values for state amplitudes, probabilities, etc.
 
-By studying the "under the hood" properties of these quantum systems, we can better determine whether they have the potetntial for speedups over classical algorithms.
+By studying the "under the hood" properties of these quantum systems, we can better determine whether they have the potential for speedups over classical algorithms.
 
 ```
 Give the example
