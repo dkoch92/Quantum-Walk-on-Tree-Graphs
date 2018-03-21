@@ -19,7 +19,7 @@ For example, many of the codes will call upon the file 'Ntreefunctions.py' for f
 import Ntreefunctions as nt
 ```
 
-As a good first test to make sure everything runs properly: open or copy into a new file, the python file named "Ntree Test Code".  If the file runs properly, a messege should print saying that all of the functions imported correctly.
+As a good first test to make sure everything runs properly: open or copy into a new file, the python file named "Ntree_Test_Code".  If the file runs properly, a messege should print saying that all of the functions imported correctly.
 
 ## Classical Simulation of Quantum Systems
 
