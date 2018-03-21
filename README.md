@@ -27,17 +27,8 @@ When designing new quantum algorithms, often times it is useful to run simulatio
 
 By studying the "under the hood" properties of these quantum systems, we can better determine whether they have the potential for speedups over classical algorithms.
 
-```
-Give the example
-```
+--------------------------
 
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Reccomended Files to Run
 
