@@ -1,5 +1,5 @@
 # Quantum-Walk-on-Tree-Graphs
-Code used for the publication: "Finding Paths in Tree Graphs With a Quantum Walk" (2018)
+Code used for the publication: "Finding Paths in Tree Graphs With a Quantum Walk" Phys. Rev. A **97** 012308 (2018)
 
 arXiv pre-print version: https://arxiv.org/abs/1710.05084
 
