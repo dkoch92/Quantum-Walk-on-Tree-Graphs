@@ -44,7 +44,7 @@ When designing new quantum algorithms, often times it is useful to run simulatio
 By studying the "under the hood" properties of these quantum systems, we can better determine whether they have the potential for speedups over classical algorithms.  Specifically, classical algorithms allow us to "freeze" these quantum systems at any point, and look at exact values for amplitudes / probabilities.  Such a task is impossible with real quantum systems, which is why studying them through classical codes is so insightful.
 
 ## Running The Codes
-All of the codes provided in this project run "out of the box" and showcase certain properties of these N-Tree quantum systems.  Most of the codes produce a plot or print results to the terminal (or both).  For further explination on the results produced by individual codes, a short paragraph is provided at the beginning of each code.  For more information, I reccomended reading the arXiv paper listed above.  All of the plots from these coeds can be found in the paper, with better explinations.
+All of the codes provided in this project run "out of the box" and showcase certain properties of these N-Tree quantum systems.  Most of the codes produce a plot or print results to the terminal (or both).  For further explination on the results produced by individual codes, a short paragraph is provided at the beginning of each code.  For more information, I reccomended reading the arXiv paper listed above.  All of the plots from these codes can be found in the paper, with better explinations.
 
 ## Coding Style Disclaimer
 
